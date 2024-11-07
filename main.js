@@ -292,7 +292,7 @@ async function press(a) {
               ? "silver"
               : i === 2
               ? "	#CD7F32"
-              : "white"
+              : "#fff"
           };">
             <img
               src="${osObj[os.os_name].icon}"
@@ -391,7 +391,7 @@ async function Arch() {
   for (let i = 0; i < 20; i++) {
     html += `\n    <div class="container">
         <div class="top-bar" style="background-color:${
-          i === 0 ? "gold" : i === 1 ? "silver" : i === 2 ? "	#CD7F32" : "white"
+          i === 0 ? "gold" : i === 1 ? "silver" : i === 2 ? "	#CD7F32" : "#fff"
         };">
           <img
             src="${osObj["Arch Linux"].icon}"
