@@ -18,7 +18,6 @@ html {
 body {
   background-color: var(--custom-color);
   font-family: "Jura", sans-serif;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }
