@@ -313,7 +313,7 @@ async function press(a) {
     }
     document.getElementById("board").innerHTML = html;
     document.getElementById("box").removeAttribute("hidden");
-    document.getElementById("box").style.height = "100vh";
+    document.getElementById("box").style.height = "max-content";
     document.getElementById("board").removeAttribute("hidden");
     document.getElementById("test").setAttribute("hidden", true);
     return;
@@ -412,7 +412,7 @@ async function Arch() {
   }
   document.getElementById("board").innerHTML = html;
   document.getElementById("box").removeAttribute("hidden");
-  document.getElementById("box").style.height = "100vh";
+  document.getElementById("box").style.height = "max-content";
   document.getElementById("board").removeAttribute("hidden");
   document.getElementById("test").setAttribute("hidden", true);
 }
