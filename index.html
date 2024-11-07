@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Linux test</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body onload="">
+    <div class="test" id="test" hidden>
+      <div class="question" id="question"></div>
+      <div class="answers">
+        <div class="answers_list" id="answers_list">
+          <div class="answers_ell a1" id="a1" onclick="a1()"></div>
+          <div class="answers_ell a2" id="a2" onclick="a2()"></div>
+          <div class="answers_ell a3" id="a3" onclick="a3()"></div>
+        </div>
+        <div class="confirm" id="confirm" onclick="confirm()">Відповісти</div>
+      </div>
+    </div>
+    <div class="center" id="start_test" onclick="Start()">
+      <button class="button">Почати тест</button>
+    </div>
+    <div class="box" id="box" hidden>
+      <div class="board" id="board" hidden>
+        <div class="container">
+          <div class="top-bar">
+
+        </div>
+      </div>
+    </div>
+    <div class="loader" id="loader" hidden ></div>
+  </body>
+</html>
