@@ -122,6 +122,17 @@ body {
     height: 90%;
   }
 }
+@media (max-width: 700px) {
+.board{
+  left: auto;
+  
+  height: fit-content; width: 60%;
+  background-color: #ffffff;
+  border-radius: 10px;
+ 
+}
+}
+
 .center{
   text-align: center;
   align-content: center;
